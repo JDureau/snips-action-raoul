@@ -19,7 +19,7 @@ module.exports = async function (msg, flow) {
     //const pokemon = await api.getPokemon(pokemonSlot.value.value)
 
     // End the dialog session.
-    flow.end()
+    // flow.end()
 
     // Return the TTS speech.
     const i18n = i18nFactory.get()
