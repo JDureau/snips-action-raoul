@@ -16,7 +16,9 @@ module.exports = function ({
             const dialog = hermes.dialog()
 
             // This is a placeholder! Replace that by something valid!
-            dialog.flow('pokemon', handlers.pokemon)
+            dialog.flow('nombre-de-semaines', handlers.numberOfWeeks)
+
+
         } catch (error) {
             // Output initialization errors to stderr and exit
             const message = await translation.errorMessage(error)
