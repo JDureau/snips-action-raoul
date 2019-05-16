@@ -22,11 +22,9 @@ module.exports = async function (msg, flow) {
     flow.end()
 
     // Return the TTS speech.
-    //const i18n = i18nFactory.get()
+    const i18n = i18nFactory.get()
     //const pokemonName = pokemon.name
-    //return i18n('pokemon.info', {
-    //    name: pokemonName,
-    //    weight: pokemon.weight,
-    //    height: pokemon.height
-    //})
+    return i18n('raoul.info', {
+       name: "Arsène"
+    })
 }
