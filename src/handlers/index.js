@@ -21,5 +21,5 @@ const handlerWrapper = handler => (
 
 // Add handlers here, and wrap them.
 module.exports = {
-    pokemon: handlerWrapper(require('./pokemon'))
+    pokemon: handlerWrapper(require('./numberOfWeeks'))
 }
