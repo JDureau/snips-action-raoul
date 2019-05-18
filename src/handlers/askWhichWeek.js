@@ -5,7 +5,10 @@ const { message, getPregnancyInfo } = require('../utils')
 module.exports = async function (msg, flow) {
     const weekInfo = getPregnancyInfo.getWeekInfo()
     const i18n = i18nFactory.get()
-    flow.continue()
+    flow.continue('Joseph:askAge', handlers.askAge)
+    flow.continue('Joseph:askWhichWeek', handlers.askWhichWeek)
+    flow.continue('Joseph:askAgeAmenorrhea', handlers.askAgeAmenorrhea)
+    flow.continue('Joseph:askWhichWeekAmenorrhea', handlers.askWhichWeekAmenorrhea)
     return i18n('raoul.weekNumber', {
        week: weekInfo.week
     })
