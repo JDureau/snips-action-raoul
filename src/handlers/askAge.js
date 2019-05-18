@@ -1,7 +1,7 @@
 const api = require('../api')
 const { i18nFactory } = require('../factories')
 const { message, getPregnancyInfo } = require('../utils')
-const handlers = require('../handlers')
+// const handlers = require('../handlers')
 
 module.exports = async function (msg, flow) {
     const weekInfo = getPregnancyInfo.getWeekInfo()
