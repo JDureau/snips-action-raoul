@@ -15,8 +15,24 @@ module.exports = function ({
 
             const dialog = hermes.dialog()
 
-            // This is a placeholder! Replace that by something valid!
-            dialog.flow('Joseph:nombre-de-semaines', handlers.numberOfWeeks)
+            dialog.flow([
+              {
+                  intent: 'Joseph:askAge',
+                  action : handlers.askAge
+              },
+              {
+                  intent: 'Joseph:askAgeAmenorrhea',
+                  action : handlers.askAgeAmenorrhea
+              },
+              {
+                  intent: 'Joseph:askWhichWeek',
+                  action : handlers.askWhichWeek
+              },
+              {
+                  intent: 'Joseph:askWhichWeekAmenorrhea',
+                  action : handlers.askWhichWeekAmenorrhea
+              }
+            ])
 
 
         } catch (error) {
