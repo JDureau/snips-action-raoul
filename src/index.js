@@ -19,6 +19,9 @@ module.exports = function ({
 
 
             dialog.flow('Joseph:askAge', handlers.askAge)
+            dialog.flow('Joseph:askWhichWeek', handlers.askWhichWeek)
+            dialog.flow('Joseph:askAgeAmenorrhea', handlers.askAgeAmenorrhea)
+            dialog.flow('Joseph:askWhichWeekAmenorrhea', handlers.askWhichWeekAmenorrhea)
 
         } catch (error) {
             // Output initialization errors to stderr and exit
