@@ -14,8 +14,7 @@ module.exports = async function (msg, flow) {
     const i18n = i18nFactory.get()
     //const pokemonName = pokemon.name
     flow.end()
-    return "semaine 21"
-    // return i18n('raoul.info', {
-    //    semaines: "Arsène"
-    // })
+    return i18n('raoul.info', {
+       week: weekInfo.week
+    })
 }
