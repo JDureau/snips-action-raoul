@@ -1,0 +1,268 @@
+[
+ {
+ 	"week": 1,
+ 	"month": 1,
+ 	"size": 0,
+ 	"weight": "rien du tout",
+ 	"members": []
+ },
+ {
+ 	"week": 2,
+ 	"month": 1,
+ 	"size": "presque rien",
+ 	"weight": "rien",
+ 	"members": []
+ },
+ {
+ 	"week": 3,
+ 	"month": 1,
+ 	"size": "1.5 à 2 millimètres",
+ 	"weight": "quasiment rien",
+ 	"members": [ "tête", "coeur"]
+ },
+ {
+ 	"week": 4,
+ 	"month": 1,
+ 	"size": "2 à 5 millimètres",
+ 	"weight": "ridicule",
+ 	"members": ["circulation sanguine", "yeux", "oreilles"]
+ },
+ {
+ 	"week": 5,
+ 	"month": 2,
+ 	"size": "5 à 7 millimètres",
+ 	"weight": "anecdotique",
+ 	"members": ["cerveau", "nez", "bouche", "machoires", "estomac", "foie", "pancréas"]
+ },
+ {
+ 	"week": 6,
+ 	"month": 2,
+ 	"size": "10 à 14 millimètres",
+ 	"weight": "1,5 grammes",
+ 	"members": ["langue", "dents", "nerf optique", "peau", "colonne vertébrale", "reins", "bras", "jambes"]
+ },
+ {
+ 	"week": 7,
+ 	"month": 2,
+ 	"size": "17 à 22 millimètres",
+ 	"weight": "1,5 à 2 grammes",
+ 	"members": ["paupières", "doigts", "coudes", "ventre"]
+ },
+ {
+ 	"week": 8,
+ 	"month": 2,
+ 	"size": "3 centimètres",
+ 	"weight": "2 à 3 grammes",
+ 	"members": ["articulations"]
+ },
+ {
+ 	"week": 9,
+ 	"month": 3,
+ 	"size": "5,5 centimètres",
+ 	"weight": "10 grammes",
+ 	"members": ["lèvres", "narines"]
+ },
+ {
+ 	"week": 10,
+ 	"month": 3,
+ 	"size": "7,5 centimètres",
+ 	"weight": "18 grammes",
+ 	"members": ["bulbes pileux", "organes génitaux", "cordes vocales"]
+ },
+ {
+ 	"week": 11,
+ 	"month": 3,
+ 	"size": "8,5 centimètres",
+ 	"weight": "28 grammes",
+ 	"members": ["côtes", "bassin"]
+ },
+ {
+ 	"week": 12,
+ 	"month": 3,
+ 	"size": "10 centimètres",
+ 	"weight": "45 grammes",
+ 	"members": ["côtes", "bassin"]
+ },
+ {
+ 	"week": 13,
+ 	"month": 3,
+ 	"size": "12 centimètres",
+ 	"weight": "65 grammes",
+ 	"members": ["côtes", "bassin"]
+ },
+ {
+ 	"week": 14,
+ 	"month": 4,
+ 	"size": "14 centimètres",
+ 	"weight": "110 grammes",
+ 	"members": ["côtes", "bassin"]
+ },
+ {
+ 	"week": 15,
+ 	"month": 4,
+ 	"size": "16 centimètres",
+ 	"weight": "135 grammes",
+ 	"members": ["côtes", "bassin"]
+ },
+ {
+ 	"week": 16,
+ 	"month": 4,
+ 	"size": "17,5 centimètres",
+ 	"weight": "160 grammes",
+ 	"members": ["côtes", "bassin"]
+ },
+ {
+ 	"week": 17,
+ 	"month": 4,
+ 	"size": "19 centimètres",
+ 	"weight": "200 grammes",
+ 	"members": ["côtes", "bassin"]
+ },
+ {
+ 	"week": 18,
+ 	"month": 5,
+ 	"size": "20 centimètres",
+ 	"weight": "240 grammes",
+ 	"members": ["côtes", "bassin"]
+ },
+ {
+ 	"week": 19,
+ 	"month": 5,
+ 	"size": "21,5 centimètres",
+ 	"weight": "335 grammes",
+ 	"members": ["côtes", "bassin"]
+ },
+ {
+ 	"week": 20,
+ 	"month": 5,
+ 	"size": "22,5 centimètres",
+ 	"weight": "385 grammes",
+ 	"members": ["côtes", "bassin"]
+ },
+ {
+ 	"week": 21,
+ 	"month": 5,
+ 	"size": "24 centimètres",
+ 	"weight": "440 grammes",
+ 	"members": ["côtes", "bassin"]
+ },
+ {
+ 	"week": 22,
+ 	"month": 5,
+ 	"size": " 26 centimètres",
+ 	"weight": "500 grammes",
+ 	"members": ["côtes", "bassin"]
+ },
+ {
+ 	"week": 23,
+ 	"month": 6,
+ 	"size": "28 centimètres",
+ 	"weight": "560 grammes",
+ 	"members": ["côtes", "bassin"]
+ },
+ {
+ 	"week": 24,
+ 	"month": 6,
+ 	"size": "30 centimètres",
+ 	"weight": "650 grammes",
+ 	"members": ["côtes", "bassin"]
+ },
+ {
+ 	"week": 25,
+ 	"month": 6,
+ 	"size": "32 centimètres",
+ 	"weight": "750 grammes",
+ 	"members": ["côtes", "bassin"]
+ },
+ {
+ 	"week": 26,
+ 	"month": 6,
+ 	"size": "33 centimètres",
+ 	"weight": "870 grammes",
+ 	"members": ["côtes", "bassin"]
+ },
+ {
+ 	"week": 27,
+ 	"month": 7,
+ 	"size": "34 centimètres",
+ 	"weight": "1 kilo",
+ 	"members": ["côtes", "bassin"]
+ },
+ {
+ 	"week": 28,
+ 	"month": 7,
+ 	"size": "35 centimètres",
+ 	"weight": "1 kilo 150",
+ 	"members": ["côtes", "bassin"]
+ },
+ {
+ 	"week": 29,
+ 	"month": 7,
+ 	"size": "36 centimètres",
+ 	"weight": "1 kilo 300",
+ 	"members": ["côtes", "bassin"]
+ },
+ {
+ 	"week": 30,
+ 	"month": 7,
+ 	"size": "37 centimètres",
+ 	"weight": "1 kilo 500",
+ 	"members": ["côtes", "bassin"]
+ },
+ {
+ 	"week": 31,
+ 	"month": 8,
+ 	"size": "39 centimètres",
+ 	"weight": "1 kilo 700",
+ 	"members": ["côtes", "bassin"]
+ },
+ {
+ 	"week": 32,
+ 	"month": 8,
+ 	"size": "40,5 centimètres",
+ 	"weight": "1 kilo 900",
+ 	"members": ["côtes", "bassin"]
+ },
+ {
+ 	"week": 33,
+ 	"month": 8,
+ 	"size": "42 centimètres",
+ 	"weight": "2 kilo 100",
+ 	"members": ["côtes", "bassin"]
+ },
+ {
+ 	"week": 34,
+ 	"month": 8,
+ 	"size": "43 centimètres",
+ 	"weight": "2 kilos 200",
+ 	"members": ["côtes", "bassin"]
+ },
+ {
+ 	"week": 35,
+ 	"month": 9,
+ 	"size": "45 centimètres",
+ 	"weight": "2 kilos 400",
+ 	"members": ["côtes", "bassin"]
+ },
+ {
+ 	"week": 36,
+ 	"month": 9,
+ 	"size": "46,5 centimètres",
+ 	"weight": "2 kilos 650",
+ 	"members": ["côtes", "bassin"]
+ },
+ {
+ 	"week": 37,
+ 	"month": 9,
+ 	"size": "47 centimètres",
+ 	"weight": "2 kilos 9",
+ 	"members": ["côtes", "bassin"]
+ },
+ {
+ 	"week": 38,
+ 	"month": 9,
+ 	"size": "50 centimètres",
+ 	"weight": "3 kilos 300",
+ 	"members": ["côtes", "bassin"]
+ }
+]
