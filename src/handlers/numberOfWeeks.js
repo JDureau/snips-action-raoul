@@ -13,7 +13,7 @@ module.exports = async function (msg, flow) {
     // Return the TTS speech.
     const i18n = i18nFactory.get()
     //const pokemonName = pokemon.name
-    return weekInfo.weeks
+    return weekInfo.week
     // return i18n('raoul.info', {
     //    semaines: "Arsène"
     // })
