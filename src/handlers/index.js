@@ -21,5 +21,8 @@ const handlerWrapper = handler => (
 
 // Add handlers here, and wrap them.
 module.exports = {
-    numberOfWeeks: handlerWrapper(require('./numberOfWeeks'))
+    askAge: handlerWrapper(require('./askAge')),
+    askWhichWeek: handlerWrapper(require('./askWhichWeek')),
+    askAgeAmenorrhea: handlerWrapper(require('./askAgeAmenorrhea')),
+    askWhichWeekAmenorrhea: handlerWrapper(require('./askWhichWeekAmenorrhea'))
 }

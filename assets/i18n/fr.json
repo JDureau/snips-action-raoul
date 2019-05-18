@@ -9,6 +9,7 @@
         "unspecific": "Oups, quelque chose s'est mal passé."
     },
     "raoul": {
-        "info": "Semaine {{ week }}."
+        "age": "{{ week }} semaines",
+        "weekNumber": "Semaine {{ week }}"
     }
 }
