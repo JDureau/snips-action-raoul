@@ -10,7 +10,7 @@ module.exports = async function (msg, flow) {
     // flow.continue('Joseph:askWhichWeek', handlers.askWhichWeek)
     // flow.continue('Joseph:askAgeAmenorrhea', handlers.askAgeAmenorrhea)
     // flow.continue('Joseph:askWhichWeekAmenorrhea', handlers.askWhichWeekAmenorrhea)
-    // flow.end()
+    flow.end()
     return i18n('raoul.weekNumber', {
        week: weekInfo.week
     })

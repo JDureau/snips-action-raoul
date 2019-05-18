@@ -14,7 +14,7 @@ module.exports = async function (msg, flow) {
     // flow.continue('Joseph:askAgeAmenorrhea', handlers.askAgeAmenorrhea)
     // flow.continue('Joseph:askWhichWeekAmenorrhea', handlers.askWhichWeekAmenorrhea)
 
-    // dialog.publish('continue_session')
+    flow.end()
     return i18n('raoul.age', {
        week: weekInfo.week
     })
