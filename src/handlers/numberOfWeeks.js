@@ -1,6 +1,6 @@
 const api = require('../api')
 const { i18nFactory } = require('../factories')
-const { message } = require('../utils')
+const { message, getPregnancyInfo } = require('../utils')
 
 module.exports = async function (msg, flow) {
     // Suppose we have a pokemon id slot
