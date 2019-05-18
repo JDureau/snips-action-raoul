@@ -33,7 +33,7 @@ module.exports = function ({
                   action : handlers.askWhichWeekAmenorrhea
               }
             ])
-
+            resolve(done)
 
         } catch (error) {
             // Output initialization errors to stderr and exit
