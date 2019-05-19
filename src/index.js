@@ -20,6 +20,7 @@ module.exports = function ({
             dialog.flow('Joseph:askWhichWeek', handlers.askWhichWeek)
             dialog.flow('Joseph:askSizeWeight', handlers.askSizeWeight)
             dialog.flow('Joseph:askRaoulReport', handlers.askRaoulReport)
+            dialog.flow('Joseph:thanks', handlers.thanks)
 
 
         } catch (error) {

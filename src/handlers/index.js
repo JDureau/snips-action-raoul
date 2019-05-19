@@ -24,5 +24,6 @@ module.exports = {
     askAge: handlerWrapper(require('./askAge')),
     askWhichWeek: handlerWrapper(require('./askWhichWeek')),
     askSizeWeight: handlerWrapper(require('./askSizeWeight')),
-    askRaoulReport: handlerWrapper(require('./askRaoulReport'))
+    askRaoulReport: handlerWrapper(require('./askRaoulReport')),
+    thanks: handlerWrapper(require('./thanks'))
 }
