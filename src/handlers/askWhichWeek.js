@@ -20,11 +20,11 @@ module.exports = async function (msg, flow) {
         if (amenorrhea){
           response = "En amenhorée."
         } else {
-          response = "Sans amenhorée, depuis la conception."
+          response = "Depuis la conception."
         }
         // Make the TTS say that.
-        return response
         flow.end()
+        return response
     })
 
     return i18n('raoul.weekNumber', {
