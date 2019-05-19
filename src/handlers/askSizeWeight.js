@@ -30,5 +30,6 @@ module.exports = async function (msg, flow) {
       })
     }
 
+    flow.end()
     return response
 }
