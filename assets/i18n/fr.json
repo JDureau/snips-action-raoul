@@ -10,6 +10,10 @@
     },
     "raoul": {
         "age": "{{ week }} semaines",
+        "size": "{{ size }}",
+        "weight": "{{ weight }} semaines",
+        "sizeAndWeight": "Il pèse {{ weight }} et mesure {{ size }}.",
+        "age": "{{ week }} semaines",
         "weekNumber": "Semaine {{ week }}"
     }
 }
