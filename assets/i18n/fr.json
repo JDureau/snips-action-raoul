@@ -11,9 +11,10 @@
     "raoul": {
         "age": "{{ week }} semaines",
         "size": "{{ size }}",
-        "weight": "{{ weight }} semaines",
+        "weight": "{{ weight }}",
         "sizeAndWeight": "Il pèse {{ weight }} et mesure {{ size }}.",
         "age": "{{ week }} semaines",
-        "weekNumber": "Semaine {{ week }}"
+        "weekNumber": "Semaine {{ week }}",
+        "report": "Il a {{ week }} semaines, il pèse {{ weight }} et mesure {{ size }}."
     }
 }

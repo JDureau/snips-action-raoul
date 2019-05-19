@@ -23,5 +23,6 @@ const handlerWrapper = handler => (
 module.exports = {
     askAge: handlerWrapper(require('./askAge')),
     askWhichWeek: handlerWrapper(require('./askWhichWeek')),
-    askSizeWeight: handlerWrapper(require('./askSizeWeight'))
+    askSizeWeight: handlerWrapper(require('./askSizeWeight')),
+    askRaoulReport: handlerWrapper(require('./askRaoulReport'))
 }
