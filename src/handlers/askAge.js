@@ -13,9 +13,13 @@ module.exports = async function (msg, flow) {
     // flow.continue('Joseph:askWhichWeek', handlers.askWhichWeek)
     // flow.continue('Joseph:askAgeAmenorrhea', handlers.askAgeAmenorrhea)
     // flow.continue('Joseph:askWhichWeekAmenorrhea', handlers.askWhichWeekAmenorrhea)
-
+    const amenorrhea = msg.slots.find(slot => slot.slotName === 'amenorrhea')
+    var week = weekInfo.week
+    if (amenorrhea){
+      week += 2
+    }
     flow.end()
     return i18n('raoul.age', {
-       week: weekInfo.week
+       week: week
     })
 }
