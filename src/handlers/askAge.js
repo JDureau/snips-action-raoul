@@ -18,7 +18,18 @@ module.exports = async function (msg, flow) {
     if (amenorrhea){
       week += 2
     }
-    flow.end()
+    flow.continue('Joseph:askCountType', (msg, flow) => {
+
+        if (amenorrhea){
+          response = "En amenhorée."
+        } else {
+          response = "Sans amenhorée, depuis la conception."
+        }
+        // Make the TTS say that.
+        return response
+        flow.end()
+    })
+
     return i18n('raoul.age', {
        week: week
     })
